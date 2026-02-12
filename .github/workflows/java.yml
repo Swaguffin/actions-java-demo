@@ -17,5 +17,5 @@ jobs:
         run: javac Hello.java
              javac Welcome.java
       - name: Run
-        run: java Hello
-             java Welcome
+        run: javac Hello
+             javac Welcome
