@@ -1,3 +1,4 @@
+
 name: Run Java Program
 on:
 push:
@@ -16,4 +17,4 @@ java-version: '17'
 - name: Compile
 run: javac Hello.java
 - name: Run
-run: java Hell
+run: java Hello
