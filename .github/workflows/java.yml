@@ -15,7 +15,6 @@ jobs:
           java-version: '17'
       - name: Compile
         run: javac Hello.java
-             
       - name: Run
-        run: javac Hello
-            
+        run: java Hello
+             
